@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="edit_text_height">50dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="default_five">5dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="doubled_default_margin">32dp</dimen>
+    <dimen name="margin_day_temperature">60dp</dimen>
+    <dimen name="margin_error_cloud">100dp</dimen>
+
+    <!--Text Sizes-->
+
+    <dimen name="text_size_36">36sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+
+    <!--Others-->
+    <dimen name="margin_end">80dp</dimen>
+    <dimen name="twenty_five">25dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="disconnected_image">150dp</dimen>
+    <dimen name="image_thirty">30dp</dimen>
+</resources>

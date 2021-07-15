@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_sky">
+
+    <include
+        android:id="@+id/errorLayout"
+        layout="@layout/layout_server_error"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_error_cloud"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_24"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Брянск" />
+
+    <TextView
+        android:id="@+id/day1"
+        style="@style/DayStyle"
+        android:layout_marginTop="@dimen/margin_default"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cityName"
+        tools:text="Среда" />
+
+    <TextView
+        android:id="@+id/day2"
+        style="@style/DayStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/day1"
+        tools:text="Четверг" />
+
+    <TextView
+        android:id="@+id/day3"
+        style="@style/DayStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/day2"
+        tools:text="Пятница" />
+
+    <TextView
+        android:id="@+id/day4"
+        style="@style/DayStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/day3"
+        tools:text="Суббота" />
+
+    <TextView
+        android:id="@+id/day5"
+        style="@style/DayStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/day4"
+        tools:text="Воскресенье" />
+
+    <TextView
+        android:id="@+id/dayTemp1"
+        style="@style/DayStyle"
+        android:layout_marginEnd="@dimen/margin_default"
+        app:layout_constraintBottom_toBottomOf="@id/day1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/day1"
+        tools:text="18" />
+
+    <TextView
+        android:id="@+id/dayTemp2"
+        style="@style/DayStyle"
+        app:layout_constraintEnd_toEndOf="@id/dayTemp1"
+        app:layout_constraintTop_toBottomOf="@id/dayTemp1"
+        tools:text="28" />
+
+    <TextView
+        android:id="@+id/dayTemp3"
+        style="@style/DayStyle"
+        app:layout_constraintEnd_toEndOf="@id/dayTemp2"
+        app:layout_constraintTop_toBottomOf="@id/dayTemp2"
+        tools:text="25" />
+
+    <TextView
+        android:id="@+id/dayTemp4"
+        style="@style/DayStyle"
+        app:layout_constraintEnd_toEndOf="@id/dayTemp3"
+        app:layout_constraintTop_toBottomOf="@id/dayTemp3"
+        tools:text="20" />
+
+    <TextView
+        android:id="@+id/dayTemp5"
+        style="@style/DayStyle"
+        app:layout_constraintEnd_toEndOf="@id/dayTemp4"
+        app:layout_constraintTop_toBottomOf="@id/dayTemp4"
+        tools:text="35" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
